@@ -1,0 +1,1 @@
+print(sum(list(map(int,list(map(lambda x: x.split("+"),map(lambda x: "{}+{}+{}+{}".format(x, x * 2, x * 3, x * 4), input())))[0]))))
